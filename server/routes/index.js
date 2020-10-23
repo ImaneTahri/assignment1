@@ -29,10 +29,10 @@ router.get('/login', indexController.displayLoginPage);
 router.post('/login', indexController.processLoginPage);
 
 /* GET Route for DISPLAYING Register Page */
-router.get('/register', indexController.displayRegisterPage);
+// router.get('/register', indexController.displayRegisterPage);
 
-/* POST Route for processing the Register Page */
-router.post('/register', indexController.processRegisterPage);
+// /* POST Route for processing the Register Page */
+// router.post('/register', indexController.processRegisterPage);
 
 /* GET to perform UserLogout */
 router.get('/logout', indexController.performLogout);
